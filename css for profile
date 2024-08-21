@@ -1,21 +1,23 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background: #444;
-    color: #fff;
+    background: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
     padding: 10px;
     text-align: center;
 }
@@ -32,24 +34,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff; /* White text */
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
-}
-
-#about, #projects, #contact {
-    background: #fff;
+    background: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
     border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #ffffff; /* White text */
     padding-bottom: 10px;
 }
 
@@ -63,17 +61,17 @@ ul li {
 }
 
 ul li a {
-    color: #333;
+    color: #ffffff; /* White text */
     text-decoration: none;
 }
 
 ul li a:hover {
-    color: #007BFF;
+    color: #007BFF; /* Blue hover color */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
 }
